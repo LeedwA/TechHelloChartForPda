@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TechHelloChartForPda.iml" filepath="$PROJECT_DIR$/TechHelloChartForPda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/TechHelloChartForPda.iml" filepath="$PROJECT_DIR$/.idea/TechHelloChartForPda.iml" />
+      <module fileurl="file://C:\Users\dell\Desktop\lib\TechHelloChartForPda\TechHelloChartForPda\TechHelloChartForPda.iml" filepath="C:\Users\dell\Desktop\lib\TechHelloChartForPda\TechHelloChartForPda\TechHelloChartForPda.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\dell\Desktop\lib\TechHelloChartForPda\TechHelloChartForPda\app\app.iml" filepath="C:\Users\dell\Desktop\lib\TechHelloChartForPda\TechHelloChartForPda\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/hellocharts-library/hellocharts-library.iml" filepath="$PROJECT_DIR$/hellocharts-library/hellocharts-library.iml" />
+      <module fileurl="file://C:\Users\dell\Desktop\lib\TechHelloChartForPda\TechHelloChartForPda\hellocharts-library\hellocharts-library.iml" filepath="C:\Users\dell\Desktop\lib\TechHelloChartForPda\TechHelloChartForPda\hellocharts-library\hellocharts-library.iml" />
     </modules>
   </component>
 </project>
