@@ -111,6 +111,7 @@ public abstract class AbstractChartView extends View implements lecho.lib.helloc
             axesRenderer.drawInBackground(canvas);
             int clipRestoreCount = canvas.save();
 //            canvas.clipRect(chartComputator.getContentRectMinusAllMargins());
+
             canvas.clipRect(chartComputator.getMaxContentRect());
             chartRenderer.draw(canvas);
             canvas.restoreToCount(clipRestoreCount);
