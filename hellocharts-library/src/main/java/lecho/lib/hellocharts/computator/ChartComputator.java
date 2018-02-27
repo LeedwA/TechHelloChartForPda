@@ -218,6 +218,10 @@ public class ChartComputator {
         return contentRectMinusAllMargins;
     }
 
+    public Rect getMaxContentRect(){
+        return maxContentRect;
+    }
+
     /**
      * Returns content rectangle with chart internal margins, for example for LineChart contentRectMinusAxesMargins is
      * bigger

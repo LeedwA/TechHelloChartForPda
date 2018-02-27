@@ -31,7 +31,7 @@ import lecho.lib.hellocharts.util.ChartUtils;
  *
  * @author Leszek Wach
  */
-public abstract class AbstractChartView extends View implements Chart {
+public abstract class AbstractChartView extends View implements lecho.lib.hellocharts.view.Chart {
     public int range;
 
     @Override
@@ -110,7 +110,8 @@ public abstract class AbstractChartView extends View implements Chart {
         if (isEnabled()) {
             axesRenderer.drawInBackground(canvas);
             int clipRestoreCount = canvas.save();
-            canvas.clipRect(chartComputator.getContentRectMinusAllMargins());
+//            canvas.clipRect(chartComputator.getContentRectMinusAllMargins());
+            canvas.clipRect(chartComputator.getMaxContentRect());
             chartRenderer.draw(canvas);
             canvas.restoreToCount(clipRestoreCount);
             chartRenderer.drawUnclipped(canvas);
