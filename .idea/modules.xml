@@ -3,11 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TechHelloChartForPda.iml" filepath="$PROJECT_DIR$/TechHelloChartForPda.iml" />
-      <module fileurl="file://C:\Users\dell\Desktop\lib\TechHelloChartForPda\TechHelloChartForPda\TechHelloChartForPda.iml" filepath="C:\Users\dell\Desktop\lib\TechHelloChartForPda\TechHelloChartForPda\TechHelloChartForPda.iml" />
       <module fileurl="file://D:\TechHelloChartForPda\.idea\TechHelloChartForPda.iml" filepath="D:\TechHelloChartForPda\.idea\TechHelloChartForPda.iml" />
+      <module fileurl="file://C:\Users\dell\Desktop\lib\TechHelloChartForPda\TechHelloChartForPda\TechHelloChartForPda.iml" filepath="C:\Users\dell\Desktop\lib\TechHelloChartForPda\TechHelloChartForPda\TechHelloChartForPda.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://C:\Users\dell\Desktop\lib\TechHelloChartForPda\TechHelloChartForPda\app\app.iml" filepath="C:\Users\dell\Desktop\lib\TechHelloChartForPda\TechHelloChartForPda\app\app.iml" />
-      <module fileurl="file://D:\TechHelloChartForPda\app\app.iml" filepath="D:\TechHelloChartForPda\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/chartlib/chartlib.iml" filepath="$PROJECT_DIR$/chartlib/chartlib.iml" />
       <module fileurl="file://D:\TechHelloChartForPda\hellocharts-library\hellocharts-library.iml" filepath="D:\TechHelloChartForPda\hellocharts-library\hellocharts-library.iml" />
       <module fileurl="file://C:\Users\dell\Desktop\lib\TechHelloChartForPda\TechHelloChartForPda\hellocharts-library\hellocharts-library.iml" filepath="C:\Users\dell\Desktop\lib\TechHelloChartForPda\TechHelloChartForPda\hellocharts-library\hellocharts-library.iml" />

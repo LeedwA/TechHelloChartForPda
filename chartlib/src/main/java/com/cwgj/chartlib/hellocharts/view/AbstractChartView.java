@@ -5,6 +5,7 @@ import android.graphics.Canvas;
 import android.os.Build;
 import android.support.v4.view.ViewCompat;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 
@@ -138,10 +139,8 @@ public abstract class AbstractChartView extends View implements Chart {
             if (needInvalidate) {
                 ViewCompat.postInvalidateOnAnimation(this);
             }
-
             return true;
         } else {
-
             return false;
         }
     }
@@ -518,6 +517,7 @@ public abstract class AbstractChartView extends View implements Chart {
      */
     @Override
     public boolean canScrollHorizontally(int direction) {
+        Log.d("xxx", "canScrollHorizontally2: ");
         if (getZoomLevel() <= 1.0) {
             return false;
         }
