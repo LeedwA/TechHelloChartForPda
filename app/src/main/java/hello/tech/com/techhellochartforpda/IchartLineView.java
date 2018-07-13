@@ -304,4 +304,16 @@ public class IchartLineView extends RelativeLayout {
         chart_line.setLineChartData(data);
     }
 
+    public boolean onInterceptTouchEvent(MotionEvent event) {
+
+        int action = event.getAction();
+        if (action == MotionEvent.ACTION_DOWN) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+
+
 }
